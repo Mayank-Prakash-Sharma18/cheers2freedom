@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Mragank Shandilya
 
 # Username (this should match the folder name)
 authors:
@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Web Developer and Digital Marketer
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Cheers2Freedom
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
