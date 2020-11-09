@@ -51,6 +51,10 @@
           {{ partial "comments" . }}
 
           {{ partial "page_related" . }}
+
+          <!-- Added by me to allow Disqus comments to show on my docs. Starts. -->
+          {{ template "_internal/disqus.html" . }}
+          <!-- Inserted code ends. -->
         </div>
 
       </article>
