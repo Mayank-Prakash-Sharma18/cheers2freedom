@@ -284,8 +284,8 @@ plugins_js  = ["custom"]
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+  google_analytics = "" 
+  google_tag_manager = "GTM-K7JFVFQ"
 
 ############################
 ## Content Management System
