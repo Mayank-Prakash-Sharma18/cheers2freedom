@@ -52,6 +52,12 @@ subtitle = "HTML, CSS & JavaScript"
 
 Welcome to the **Cheers2Freedom Courses** !
 
+This website is dedicated to Front-end technologies (HTML, CSS, Javscript etc.) and Digital Marketing (SEO, SMM, E-mail Marketing etc.)
+
+If you are a beginner, you may refer to our free courses. They have been structured to give you a comprehensive, as well as a quick start in your quest to become a professional or maybe even an entrepreneur. 
+
+Keep reading, Keep learning, Keep experimenting, Keep creating!
+
 Follow our [HTML](https://cheers2freedom.com/html/) and [CSS](#) courses.
 
 {{% alert note %}}
