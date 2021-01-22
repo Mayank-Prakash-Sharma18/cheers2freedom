@@ -9,9 +9,9 @@
 #   weight = 10
 
 [[main]]
-  name = "Posts"
+  name = "Blog Posts"
   url = "#posts"
-  weight = 30
+  weight = 60
 
 # [[main]]
 #   name = "Projects"
@@ -37,6 +37,11 @@
    name = "CSS"
    url = "css/"
    weight = 20
+
+[[main]]
+   name = "Create a Blog"
+   url = "post/create-a-blog/"
+   weight = 40
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
