@@ -60,8 +60,8 @@ Keep reading, Keep learning, Keep experimenting, Keep creating!
 
 Follow our [HTML](https://cheers2freedom.com/html/) and [CSS](#) courses.
 
-{{% alert note %}}
+<!-- {{% alert note %}}
 You may also follow us on:
 - [Our English *YouTube* channel](https://youtube.com/channel/UCTERxegrk_eFZ1ZJKQEofbg/).
 - [Our Hindi *YouTube* channel](https://youtube.com/channel/UC_n93aTLl5kWmSBVTK2KhZw/).
-{{% /alert %}}
+{{% /alert %}} -->

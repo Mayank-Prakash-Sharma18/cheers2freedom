@@ -23,11 +23,6 @@
 #   url = "#featured"
 #   weight = 40
 
-# [[main]]
-#   name = "Contact"
-#   url = "#contact"
-#   weight = 60
-
 [[main]]
    name = "HTML"
    url = "html/"
@@ -41,7 +36,25 @@
 [[main]]
    name = "Create a Blog"
    url = "post/create-a-blog/"
+   identifier = "create-blog"
    weight = 40
+
+   [[main]]
+   name = "HUGO (SSG)"
+   url = "static-websites/"
+   parent = "create-blog"
+   weight = 10
+
+   [[main]]
+   name = "Wordpress (CMS)"
+   url = "#"
+   parent = "create-blog"
+   weight = 20
+
+[[main]]
+  name = "Contact Us"
+  url = "#contact"
+  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
