@@ -1,6 +1,6 @@
 ---
-title: CMS and Hosting
-linktitle: CMS and Hosting
+title: CMS for Static Websites
+linktitle: CMS for Static Websites
 toc: true
 type: docs
 date: "2021-01-09T00:00:00+01:00"
@@ -38,11 +38,5 @@ To read more about Forestry, you may check out their <a href="https://forestry.i
 
 If you are hosting your site on Netlify, then using Netlifly CMS maybe a good option for you. If you want to read more about it, you may check out their <a href="https://www.netlifycms.org/" target="_blank">website</a>. 
 
-## Hosting for Static Sites
 
-You have many options when it comes to hosting static websites made by using static site generators or otherwise by just plain old manual coding. As these sites do not need any server, their setup is super simple and as they do not consume much resources of the hosting provider, the hosting fee is pretty less and even free in many cases. 
-
-Some of the hosting providers that you can consider are: Netlify, Google cloud, Github Pages, AWS etc. 
-
-However, I prefer Netlify as it’s basically a content delivery network (CDN) and so putting my entire site on it makes it super-fast. It supports HUGO and Github. You just need to upload your site on Github and import the site in Netlify by just pressing a few buttons. It will rebuild the website using Hugo build command as soon as any change is committed to Github.	
 

@@ -4,16 +4,6 @@
 #   The weight parameter defines the order that the links will appear in.
 
 # [[main]]
-#   name = "Home"
-#   url = "#about"
-#   weight = 10
-
-[[main]]
-  name = "Blog Posts"
-  url = "#posts"
-  weight = 60
-
-# [[main]]
 #   name = "Projects"
 #   url = "#projects"
 #   weight = 30
@@ -23,38 +13,77 @@
 #   url = "#featured"
 #   weight = 40
 
+# [[main]]
+#    name = "Create a Blog"
+#    url = "post/create-a-blog/"
+#    weight = 40
+
 [[main]]
    name = "HTML"
-   url = "html/"
+   url = "html/html-fundamentals/"
    weight = 10
 
 [[main]]
    name = "CSS"
-   url = "css/"
+   url = "css/css-fundamentals/"
    weight = 20
 
 [[main]]
-   name = "Create a Blog"
-   url = "post/create-a-blog/"
-   identifier = "create-blog"
+   name = "Static Websites"
+   url = "#"
+   identifier = "static-websites"
    weight = 40
 
    [[main]]
-   name = "HUGO (SSG)"
-   url = "static-websites/"
-   parent = "create-blog"
+   name = "Introduction"
+   url = "static-websites/static-websites-introduction/"
+   parent = "static-websites"
    weight = 10
 
    [[main]]
-   name = "Wordpress (CMS)"
-   url = "#"
-   parent = "create-blog"
+   name = "HUGO (SSG)"
+   url = "static-websites/hugo/"
+   parent = "static-websites"
    weight = 20
+
+# [[main]]
+# name = "Wordpress (CMS)"
+# url = "#"
+# identifier = "wordpress"
+# weight = 60
+
+[[main]]
+   name = "SEO"
+   url = "seo/"
+   identifier = "seo"
+   weight = 90
+   
+   [[main]]
+   name = "Keyword Research"
+   url = "seo/keyword-research/"
+   parent = "seo"
+   weight = 30
+
+   [[main]]
+   name = "Technical SEO"
+   url = "seo/technical-seo/"
+   parent = "seo"
+   weight = 60
+
+[[main]]
+  name = "Blog Posts"
+  url = "#posts"
+  weight = 340
+
+[[main]]
+  name = "About Us"
+  url = "#about"
+  weight = 350
 
 [[main]]
   name = "Contact Us"
   url = "#contact"
-  weight = 60
+  weight = 360
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
