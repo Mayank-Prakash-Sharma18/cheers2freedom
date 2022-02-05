@@ -46,8 +46,20 @@ call_to_action:
 
 ## What is our main mission?
 
-We want to create awareness about pet care and sensitize people to treat animals more humanely. 
+Welcome to the **Cheers2Freedom** !
 
-Our aim is to open a country-wide NGO that can take care of animals, e.g. stray dogs and cats etc. and streamline all the services required for that purpose. 
+This website is dedicated to Front-end technologies (HTML, CSS, Javscript etc.), Website Development platforms (mainly Static Site Generators, such as HUGO) and Digital Marketing (SEO, SMM, E-mail Marketing etc.)
+
+If you are a beginner, you may refer to our articles. They have been structured to give you a comprehensive, as well as a quick start in your quest to become a professional, or maybe even an entrepreneur in the future. 
+
+Keep reading, Keep learning, Keep experimenting, Keep creating!
+
+<!-- Follow our [HTML](https://cheers2freedom.com/html/) and [CSS](#) courses. -->
+
+<!-- 
+You may also follow us on:
+- [Our English *YouTube* channel](https://youtube.com/channel/UCTERxegrk_eFZ1ZJKQEofbg/).
+- [Our Hindi *YouTube* channel](https://youtube.com/channel/UC_n93aTLl5kWmSBVTK2KhZw/).
+-->
 
 Regards

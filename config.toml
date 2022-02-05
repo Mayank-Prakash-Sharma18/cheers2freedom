@@ -15,6 +15,9 @@ defaultContentLanguage = "en"
 # disable language
 disableLanguages = [] # desable language from here
 
+# To change the background colour of code-blocks that I add in my posts to showcase html, css, js code. Default is black.
+pygmentsStyle = "pygments"
+
 ############################# Output ##############################
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -63,7 +66,7 @@ menu_align = "center" # available option (left, right, or center )
 author = "Cheers2Freedom"
 description = "All about Java Script, HTML, CSS, HUGO, Angular, SEO"
 # contact form action
-# contact_form_action = "https://formspree.io/f/maylkwly" 
+contact_form_action = "https://formspree.io/f/xlezjoll" 
 # contact form works with https://formspree.io
 # Go to https://formspree.io, and create an account by click on signup button. Now verify your email address by click on varify button in the mail you got in your inbox. form action will looks like this contact_form_action = "https://formspree.io/your.name@email.com/" 
 
@@ -113,7 +116,7 @@ sidebar = ["search", "about-me", "promotion", "authors", "subscription", "catego
 [[params.social]]
 name = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-# link = "https://www.facebook.com/Doggy-Catty-102975332039575/"
+link = "https://www.facebook.com/Cheers2Freedom-101321284748518/"
 
 [[params.social]]
 name = "twitter"
@@ -147,34 +150,24 @@ heading = "What Would You <br> Like To Read Today?"
 [Languages.en.about_me]
 title = "Hi, I am Mragank Shandilya!"
 image = "images/author.jpg"
-bio = "I am a working professional ....."
+bio = "Academician, Blogger, and Digital Marketer"
 
 ############# english navigation ##############
 
 [[Languages.en.menu.main]]
-name = "Dogs"
-url = "categories/dogs/"
+name = "HTML"
+url = "categories/html/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Cats"
-url = "categories/cats/"
+name = "HUGO"
+url = "categories/hugo/"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Parrots"
-url = "categories/parrots/"
+name = "SEO"
+url = "categories/seo/"
 weight = 3
-
-[[Languages.en.menu.main]]
-name = "Fishes"
-url = "categories/fishes/"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "Rabbits"
-url = "categories/rabbits/"
-weight = 5
 
 [[Languages.en.menu.main]]
 name = "Contact"
@@ -222,34 +215,24 @@ heading = "आज आप क्या <br> पढ़ना पसंद करे�
 [Languages.hi.about_me]
 title = "नमस्ते, में मृगांक शांडिल्य !"
 image = "images/author.jpg"
-bio = "मुझे पालतू जानवरों - कुत्तों से लेकर बिल्लियों, तोते और यहां तक कि खरगोश पालने का एक दशक से भी अधिक का अनुभव है। अपना ज्ञान आप लोगों के साथ साझा करने का यह मेरा एक छोटा सा प्रयास है।"
+bio = "Academician, Blogger, and Digital Marketer"
 
 ############# french navigation ##############
 
 [[Languages.hi.menu.main]]
-name = "कुत्ते"
-url = "categories/dogs/"
+name = "HTML"
+url = "categories/html/"
 weight = 1
 
 [[Languages.hi.menu.main]]
-name = "बिल्लियाँ"
-url = "categories/cats/"
+name = "HUGO"
+url = "categories/hugo/"
 weight = 2
 
 [[Languages.hi.menu.main]]
-name = "तोते"
-url = "categories/parrots/"
+name = "SEO"
+url = "categories/seo/"
 weight = 3
-
-[[Languages.hi.menu.main]]
-name = "मछलियां"
-url = "categories/fishes/"
-weight = 4
-
-[[Languages.hi.menu.main]]
-name = "ख़रगोश"
-url = "categories/rabbits/"
-weight = 5
 
 [[Languages.hi.menu.main]]
 name = "संपर्क"

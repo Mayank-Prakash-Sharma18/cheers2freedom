@@ -133,3 +133,48 @@ $(document).ready(function() {
       return false;
     });
 });
+
+// Copy to Clipboard functionality added by me / Mak / Mayank. 
+// Source - https://stackoverflow.com/questions/57253006/two-copy-text-buttons 
+// This can work even if we have multiple items to copy on a page. 
+function makCopyFunction(elem) {
+	var targetElementID = elem.getAttribute("data-target");
+	var copyText = document.getElementById(targetElementID);
+	copyText.select();
+	document.execCommand("copy");
+  }
+  
+  // We use the following HTML code in our pages/post, along with the above JS code (for bigger text, to be put in textarea HTML element)
+  /* <textarea id="myInput1" class="mak-input" style="width:99%;height:150px;">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))</textarea>
+  <button onclick="myFunction(this)" data-target="myInput1" class="mak-button">Copy to Clipboard</button> <br> */
+  
+  // We use the following HTML code in our pages/post, along with the above JS code (for one line smaller text, to be put in text input HTML element). 'Width' of the input text must be atleast double than the text within it, otherwise full text is not shown completely in mobile view. 
+  /* <input type="text" value="choco install hugo -confirm" id="myInput2" class="mak-input" style="width:72%;">
+  <button onclick="myFunction(this)" data-target="myInput2" class="mak-button">Copy to Clipboard</button> <br> */
+  
+  
+  // ----------------------------------------------------------
+  // Copy to Clipboard functionality added by me / Mak / Mayank earlier. 
+  // Source - https://stackoverflow.com/questions/49236100/copy-text-from-span-to-clipboard 
+  // This function will work only for one text element per page, because it uses id. If you want to add more than one copy to clipboard buttons on a page then you will have to add similar functions with different ids (or do some R&D and find a method that uses class, rather than id)  ...I will not use it 
+  
+  // document.getElementById("cp_btn").addEventListener("click", makCopyToClipboard);
+  
+  // function makCopyToClipboard() {
+  
+  //     var copyText = document.getElementById("cp_spn");
+  //     var textArea = document.createElement("textarea");
+  //     textArea.value = copyText.textContent;
+  //     document.body.appendChild(textArea);
+  //     textArea.select();
+  //     document.execCommand("Copy");
+  //     textArea.remove();
+  // }
+  
+  // We use the following HTML code in our pages/post, along with the above JS code
+  // <span id="cp_spn">{{ partial "gtm" . }}</span>
+  // <button id="cp_btn" class="mak-button">Copy to Clipboard</button><br></br>
+  // ----------------------------------------------------------
+  
+
+  

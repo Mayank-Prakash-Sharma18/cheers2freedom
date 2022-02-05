@@ -1,0 +1,29 @@
+/* These files will add a copy to clipboard button (Source: https://www.tomspencer.dev/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/; Then i converted SCSS to CSS using this - https://jsonformatter.org/scss-to-css) */
+
+.highlight {
+  position: relative;
+  background-color: rgb(243, 240, 245);   /* Change this to alter the background colour of the code block */
+  /* color: red; */
+  font-size: 17px;   /* Change this to alter the font size of the code inside the block. I have kept it the ame as the size of the text in my article body */
+}
+.highlight pre {
+  padding-right: 75px;
+}
+.highlight-copy-btn {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  border: 0;
+  border-radius: 4px;
+  padding: 1px;
+  font-size: 0.7em;
+  line-height: 1.8;
+  color: #fff;
+  background-color: #777;
+  min-width: 55px;
+  text-align: center;
+}
+.highlight-copy-btn:hover {
+  background-color: #666;
+}
+
