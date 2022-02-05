@@ -1,0 +1,91 @@
+- id: read_more
+  # translation: Relecture Continiue
+  translation: और पढ़ें
+
+- id: search_placeholder
+  # translation: Tapez et appuyez sur Entrée ...
+  translation: सर्च करें
+
+- id: recent_post
+  translation: नवीनतम पोस्ट
+
+- id: authors
+  translation: लेखक  
+
+- id: tags
+  translation: टैग्स 
+
+- id: categories
+  translation: कैटिगरीज
+
+- id: search
+  translation: सर्च
+
+- id: date
+  translation: तिथि
+
+- id: send
+  translation: send
+
+- id: name
+  translation: नाम 
+
+- id: email 
+  translation: ईमेल 
+
+- id: subject
+  translation: सब्जेक्ट 
+
+- id: message
+  translation: मैसेज 
+
+- id: subscribe
+  translation: सब्सक्राइब 
+
+- id: subscribe_newsletter
+  translation: सब्सक्राइब करें   
+
+- id: social
+  translation: सोशल 
+  
+- id: minute_read
+  translation: मिनट में पढ़ें 
+
+- id: posts_by
+  translation: posts by
+
+- id: showing_from
+  translation: showing from
+
+- id: search_for
+  translation: सर्च करें
+
+- id: instagram_post
+  translation: इंस्ट्राग्राम पोस्ट
+
+- id: editors_pick
+  translation: संपादक की पसंद
+
+- id: trending_post
+  translation: ट्रेंडिंग पोस्ट
+
+- id: popular_post
+  translation: लोकप्रिय पोस्ट
+
+- id: about_me
+  translation: लेखक के बारे में  
+
+- id: subscribe_newsletter
+  translation: सब्सक्राइब करें 
+
+- id: back_to_home
+  translation: होमपेज वापस जाएं 
+
+- id: visit_channel
+  translation: चैनल विजिट करें 
+
+- id: home
+  translation: होमपेज
+
+- id: our_authors
+  translation: हमारे लेखक 

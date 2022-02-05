@@ -1,0 +1,20 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify -b $URL"
+  
+[build.environment]
+  HUGO_ENV = "production"
+  HUGO_VERSION = "0.78.1"
+  # HUGO_ENABLEGITINFO = "true"
+  # HUGO_THEME = "repo"
+  # HUGO_BASEURL = "/"
+
+[[redirects]]
+  from = "en/*"
+  to = "en/404.html"
+  status = 404
+
+[[redirects]]
+  from = "fr/*"
+  to = "fr/404.html"
+  status = 404

@@ -1,0 +1,288 @@
+######################## default configuration ####################
+baseURL = "https://cheers2freedom.com/"
+title = "Web Development and Digital Marketing"
+theme = "reader"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "20"
+# google analytics
+googleAnalytics = "" # Ex: UA-123-45
+# disqus short name
+disqusShortname = "cheers2freedom-com" # get your shortname form here : https://disqus.com
+# default language
+defaultContentLanguage = "en"
+# disable language
+disableLanguages = [] # desable language from here
+
+############################# Output ##############################
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_width = "100px"
+menu_align = "center" # available option (left, right, or center )
+# Meta data
+author = "Cheers2Freedom"
+description = "All about Java Script, HTML, CSS, HUGO, Angular, SEO"
+# contact form action
+# contact_form_action = "https://formspree.io/f/maylkwly" 
+# contact form works with https://formspree.io
+# Go to https://formspree.io, and create an account by click on signup button. Now verify your email address by click on varify button in the mail you got in your inbox. form action will looks like this contact_form_action = "https://formspree.io/your.name@email.com/" 
+
+# search
+search = true
+# featured
+featured_post = true
+# layout
+post_layout= "full" # layout value (full, grid or list)
+# Sidebar
+sidebar = "right" # sidebar value (left, right or false)
+# main taxonomy that will show at header and post card
+main_taxonomy = "tag" # optional value (tag or category)
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# Instagram feed
+[params.instafeed]
+enable = false
+access_token = "" # place your instagram access token here
+
+# promotion
+# [params.promotion]
+# title = "Create Stunning Website!!"
+# content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare turpis posuere."
+# image = "images/promotion.jpg"
+# button_label = "Get Started"
+# button_link = "https://themefisher.com/"
+
+######################## sidebar widgets #########################
+[params.widgets]
+sidebar = ["search", "about-me", "promotion", "authors", "subscription", "categories", "recent-post", "tags", "social"]
+# available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
+
+
+############################# social site ########################
+[[params.social]]
+name = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+# link = "https://www.facebook.com/Doggy-Catty-102975332039575/"
+
+[[params.social]]
+name = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+# [[params.social]]
+# name = "linkedin"
+# icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+# [[params.social]]
+# name = "github"
+# icon = "ti-github" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+# [[params.social]]
+# name = "youtube"
+# icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+heading = "What Would You <br> Like To Read Today?"
+
+[Languages.en.about_me]
+title = "Hi, I am Mragank Shandilya!"
+image = "images/author.jpg"
+bio = "I am a working professional ....."
+
+############# english navigation ##############
+
+[[Languages.en.menu.main]]
+name = "Dogs"
+url = "categories/dogs/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Cats"
+url = "categories/cats/"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Parrots"
+url = "categories/parrots/"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Fishes"
+url = "categories/fishes/"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Rabbits"
+url = "categories/rabbits/"
+weight = 5
+
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "#"
+weight = 16
+hasChildren = true
+
+   [[Languages.en.menu.main]]
+   parent = "Contact"
+   name = "Contact Us"
+   URL = "contact/"
+   weight = 17
+
+   [[Languages.en.menu.main]]
+   parent = "Contact"
+   name = "About Us"
+   url = "about-us/"
+   weight = 18
+
+
+# footer menu
+[[Languages.en.menu.footer]]
+name = "Privacy Policy"
+URL = "privacy-policy/"
+weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Terms Conditions"
+URL = "terms-conditions/"
+weight = 2
+
+[[Languages.en.menu.footer]]
+name = "Disclaimer"
+URL = "disclaimer/"
+weight = 3
+
+################################### French language #####################################
+[Languages.hi]
+languageName = "Hi"
+languageCode = "hi-in"
+contentDir = "content/french"
+weight = 2
+heading = "आज आप क्या <br> पढ़ना पसंद करेंगे ?"
+
+[Languages.hi.about_me]
+title = "नमस्ते, में मृगांक शांडिल्य !"
+image = "images/author.jpg"
+bio = "मुझे पालतू जानवरों - कुत्तों से लेकर बिल्लियों, तोते और यहां तक कि खरगोश पालने का एक दशक से भी अधिक का अनुभव है। अपना ज्ञान आप लोगों के साथ साझा करने का यह मेरा एक छोटा सा प्रयास है।"
+
+############# french navigation ##############
+
+[[Languages.hi.menu.main]]
+name = "कुत्ते"
+url = "categories/dogs/"
+weight = 1
+
+[[Languages.hi.menu.main]]
+name = "बिल्लियाँ"
+url = "categories/cats/"
+weight = 2
+
+[[Languages.hi.menu.main]]
+name = "तोते"
+url = "categories/parrots/"
+weight = 3
+
+[[Languages.hi.menu.main]]
+name = "मछलियां"
+url = "categories/fishes/"
+weight = 4
+
+[[Languages.hi.menu.main]]
+name = "ख़रगोश"
+url = "categories/rabbits/"
+weight = 5
+
+[[Languages.hi.menu.main]]
+name = "संपर्क"
+url = "#"
+weight = 16
+hasChildren = true
+
+   [[Languages.hi.menu.main]]
+   parent = "संपर्क"
+   name = "संपर्क करें"
+   URL = "contact/"
+   weight = 17
+
+   [[Languages.hi.menu.main]]
+   parent = "संपर्क"
+   name = "हमारे बारे में"
+   url = "about-us/"
+   weight = 18
+
+
+# footer menu
+[[Languages.hi.menu.footer]]
+name = "प्राइवेसी पॉलिसी"
+URL = "privacy-policy/"
+weight = 1
+
+[[Languages.hi.menu.footer]]
+name = "टर्म्स कंडीशंस"
+URL = "terms-conditions/"
+weight = 2
+
+[[Languages.hi.menu.footer]]
+name = "डिस्क्लेमर"
+URL = "disclaimer/"
+weight = 3
+
