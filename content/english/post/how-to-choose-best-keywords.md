@@ -166,9 +166,9 @@ Only the sequence of pages may vary sometimes based on your past searches and cl
 
 Apart from running just a normal search, we can also run some technical searches in Google by using certain technical words.
 
-* intitle:“keyword” - e.g. intitle:dogs. It will show you the articles that have your keyword in their title. So, in a way it will show approximately how many of your competitors have done on-page SEO. While some websites may have put these keywords in their article heading unwittingly, but most of them must have done it intentionally to rank for that particular keyword (as a part of their on-page SEO efforts). 
+* intitle:"keyword" - e.g. intitle:dogs. It will show you the articles that have your keyword in their title. So, in a way it will show approximately how many of your competitors have done on-page SEO. While some websites may have put these keywords in their article heading unwittingly, but most of them must have done it intentionally to rank for that particular keyword (as a part of their on-page SEO efforts). 
 
-* inanchor:”keyword” - e.g. inanchor:dogs. It will show you how many websites have your keyword as external anchor text (i.e. backlink), that points back to their website. So, in a way it will show approximately how many competitors have done link-building (as a part of their off-page SEO efforts). If I get less than 1000 results, then that keyword is definitely less competitive. I generally avoid keywords that may show over 100,000 search results.  
+* inanchor:"keyword" - e.g. inanchor:dogs. It will show you how many websites have your keyword as external anchor text (i.e. backlink), that points back to their website. So, in a way it will show approximately how many competitors have done link-building (as a part of their off-page SEO efforts). If I get less than 1000 results, then that keyword is definitely less competitive. I generally avoid keywords that may show over 100,000 search results.  
 
 We can also do both of the above in one go. You may gogle intitle:”keyword” inanchor:”keyword”, e.g. intitle:dogs inanchor:dogs. 
 
