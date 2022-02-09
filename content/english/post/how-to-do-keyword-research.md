@@ -66,7 +66,7 @@ We can call good monthly search volume as anything over 500 searches per month.
 
 By low competition, we mean that the top 10 sites in Google (for that particular keyword) can be beaten.
 
-In this respect, 3-5 word-long keyword phrases (called long-tail keywords), with decent search volume are the best. It is generally easier to rank for them, due to less competition
+In this respect, 3-5 word-long keyword phrases (called ***long-tail keywords***), with decent search volume are the best. It is generally easier to rank for them, due to less competition
 
 So, now you know the basics of keyword and goals of keyword research. <br>
 But how to go about it? <br>
