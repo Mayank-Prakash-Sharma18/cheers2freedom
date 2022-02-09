@@ -21,8 +21,11 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
- <!-- Google Tag Manager Code will be inserted here from layouts/partials/gtm.html file -->
+ <!-- Google Tag Manager Code will be inserted here from layouts/partials/gtm.html file (Added by Me) -->
  {{ partial "gtm" . }}
+
+ <!-- For adding katex in the posts where, katex: true (Added by Me) -->
+ {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
 
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics.html" . }}

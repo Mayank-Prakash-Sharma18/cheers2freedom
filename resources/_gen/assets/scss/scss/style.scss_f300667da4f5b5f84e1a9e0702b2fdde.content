@@ -13,12 +13,12 @@ body {
   font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #555;
-  font-size: 15px; }
+  font-size: 17px; }
 
 p {
   font-weight: 400;
   color: #555;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.7;
   font-family: "Nunito Sans", sans-serif; }
 
@@ -36,16 +36,19 @@ h2, .h2 {
   color: green; }
 
 h3, .h3 {
-  font-size: 24px; }
+  font-size: 27px; }
 
 h4, .h4 {
-  font-size: 18px; }
+  font-size: 22px; }
 
 h5, .h5 {
-  font-size: 15px; }
+  font-size: 17px; }
 
 h6, .h6 {
-  font-size: 13px; }
+  font-size: 15px; }
+
+pre {
+  font-size: 17px; }
 
 /* Button style */
 .btn {
@@ -324,6 +327,9 @@ tr:nth-child(even) {
   margin: 4px 2px;
   display: inline-block;
   font-size: 16px; }
+
+iframe[sandbox]:not([sandbox=""]) {
+  display: none !important; }
 
 .navigation {
   border-bottom: 1px solid #EBEBEB;

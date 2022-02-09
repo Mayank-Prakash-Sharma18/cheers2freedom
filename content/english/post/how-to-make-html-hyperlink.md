@@ -29,31 +29,57 @@ In this article, we are going to learn about Hyperlinks in HTML.
 </div>
 
 Hyperlink - provides the ability to link from one web page or resource to another.
-Made using the anchor element - `<a>` <br>
-It is an inline-level element.
+Made using the anchor element - `<a>`
 
-href attribute – its value is a path that identifies the destination of the hyperlink
+It is an ***inline-level*** element.
+
+***href attribute*** – its value is a path that identifies the destination of the hyperlink
 
 ```html
-<a href=“https://cheers2freedom.com”>HTML Course</a>
+<a href="https://cheers2freedom.com">HTML Course</a>
 ```
 
-Anchor element, `<a>`, is an inline element. Inline-level elements may not wrap block-level elements. 
-However, in HTML5, anchor elements specifically have permission to wrap either block-, inline-, or any other level elements. 
-So entire blocks of content/image on a page can become links:
+As already mentioned, Anchor element, `<a>`, is an inline element. Inline-level elements may not wrap block-level elements. 
+
+However, in HTML5, anchor elements specifically have permission to wrap either block-, inline-, or any other level elements. So entire blocks of content/image on a page can become links.
+
+An example of Anchor element wrapping block-level elements (headings):
 
 ```html
-<a href="https://cheers2freedom.com">
+<a href="https://cheers2freedom.com/post/how-to-make-html-hyperlink/">
 <h2>HTML Course</h2>
 <h3>Lesson 10: Hyperlinks</h3>
 </a>
 ```
 
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See it in action</b><br>
+
+<br>
+<a href="https://cheers2freedom.com/post/how-to-make-html-hyperlink/">
+<h5>HTML Course</h5>
+<h6>Lesson 10: Hyperlinks</h6>
+</a>
+</div>
+
+An example of Anchor element wrapping image element:
+
 ```html
-<a href="https://cheers2freedom.com">
-<img src="click-here-image.webp">
+<a href="https://cheers2freedom.com/post/how-to-make-html-hyperlink/">
+<img src="image/htmlhyperlink.jpg">
 </a>
 ```
+
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See it in action</b><br>
+
+<br>
+<a href="https://cheers2freedom.com/post/how-to-make-html-hyperlink/">
+<img src="../../../images/post/html/html-hyperlink.jpg" style="width:11%;height:11%;">
+</a>
+</div>
 
 
 ## Relative and Absolute Paths
@@ -61,19 +87,27 @@ So entire blocks of content/image on a page can become links:
 Linking to pages/posts on other websites requires an absolute path - href attribute value must include the full domain.
 
 ```html
-E.g. <a href=“https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types”>More on links</a>
+E.g. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types">More on links</a>
 ```
+
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See it in action</b><br>
+
+<br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types" class="mak-link">More on links</a>
+</div>
 
 Links pointing to other pages of the same website can have a relative path - href attribute value needs to include only the filename of the page being linked to. No need to include the domain (.com, .org, .edu, etc.)  
 
 ```html
-E.g. <a href=“course-details.html”>HTML Course</a>
+E.g. <a href="course-details.html">HTML Course</a>
 ```
 
 If the page being linked to reside within a different directory/folder, the href attribute value needs to reflect this as well.
 
 ```html
-E.g. <a href=“pages/course-details.html”>HTML Course</a>
+E.g. <a href="pages/course-details.html">HTML Course</a>
 ```
 
 
@@ -112,8 +146,16 @@ Default behaviour - links open in the same window/tab
 To open a link in a new window - use the target attribute with a value of _blank 
 
 ```html
-E.g. <a href=“https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types” target=“_blank”>More on links</a>
+E.g. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types" target="_blank">More on links</a>
 ```
+
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See it in action</b><br>
+
+<br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types" class="mak-link" target="_blank">More on links</a>
+</div>
 
 <div class="toc-mak">
   <img src="../../../images/pencil.png">
@@ -130,7 +172,7 @@ Various values of rel attribute:
 * copyright - When linking to a copyright statement.
 
 ```html
-<a href=”legal.html" rel="copyright">Terms of Use</a>  
+<a href="legal.html" rel="copyright">Terms of Use</a>  
 ```
 
 * nofollow - When you do not want the spiders of search engines to provide any additional weight or ranking to the destination of that hyperlink. 
@@ -144,10 +186,17 @@ Various values of rel attribute:
 title attribute - specifies extra information about an element. (tooltip text)
 
 ```html
-<a href="https://www.cheers2freedom.com/html/" title=“HTML Course">Visit our HTML Tutorial</a>
+<a href="https://www.cheers2freedom.com/html/" title="HTML Course">Visit our HTML Tutorial</a>
 ```
-Hover your mouse over the link below: <br>
+
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See it in action</b><br>
+
+Hover your mouse over the link below:
+
 <a href="#" title="HTML Course" class="mak-link"> Visit our HTML Tutorial </a>
+</div>
 
 
 <script src="../../js/code-block-script.js"></script>

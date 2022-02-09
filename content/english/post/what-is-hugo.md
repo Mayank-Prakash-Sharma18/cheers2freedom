@@ -34,10 +34,10 @@ HUGO is a static site generator (SSG) which, as the name suggests, you can use t
   <img src="../../../images/pencil.png">
   <b>Note</b><br>
 
-If you do not know what static sites or static site generators (SSGs) are, you may read about them
-<a href="../static-websites-introduction" class="mak-link" title="Static Site Generators (SSGs)">here</a>.
-
 Before we go deeper into HUGO, we need to understand these two terms mentioned in this definition of HUGO, i.e. what is a static website and what are static site generators. 
+
+If you do not know what static sites or static site generators (SSGs) are, you may
+<a href="../what-is-static-site-generator" class="mak-link" title="Static Site Generators (SSGs)">read about them here</a>.
 </div>
 
 It is based on the ***GO*** language developed by Google. Though you need not have much knowledge of this language to make a site using HUGO. We can just use a theme. 

@@ -4,13 +4,13 @@ body {
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   color: $text-color;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 p {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.7;
   font-family: $primary-font;
 }
@@ -32,17 +32,24 @@ h2, .h2{
 }
 
 h3, .h3{
-  font-size: 24px;
+  font-size: 27px;
 }
 
 h4, .h4{
-  font-size: 18px;
+  font-size: 22px;
 }
 
 h5, .h5{
-  font-size: 15px;
+  font-size: 17px;
 }
 
 h6, .h6{
-  font-size: 13px;
+  font-size: 15px;
 }
+
+
+// Added by me to make the font inside Note/Warning boxes and Code-blocks, of the same size as in the rest of the article. It's not needed in other Reader websites, as there the text under Note/Warning boxes is within <p> tags and not <pre> tags
+pre {
+  font-size: 17px;
+}
+

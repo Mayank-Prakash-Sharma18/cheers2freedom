@@ -27,10 +27,10 @@ In this article, we are going to learn how to embed images in a HTML document.
 </ul>
 </div>
 
-To add images to a page - `<img>` inline element <br>
-It is an empty element - it doesn’t wrap any other content and exists as a single tag.
+To add images to a page - we use `<img>` inline element <br>
+It is an ***empty element*** - it doesn’t wrap any other content and exists as a single tag.
 
-src attribute - its value specifies the source of the image
+***src attribute*** - its value specifies the source of the image
 
 ```html
 <img src="pulsar.jpg">
@@ -45,8 +45,15 @@ If you have your images in a sub-folder, you must include the folder name in the
 We can access images from any web address in the world:
 
 ```html
-<img src="https://source.unsplash.com/1600x900/?nature,water"
+<img src="https://source.unsplash.com/1600x900/?nature,water">
 ```
+
+<div class="toc-mak">
+  <img src="../../../images/pencil.png">
+  <b>See this in Action</b><br>
+
+<img src="https://source.unsplash.com/1600x900/?nature,water">
+</div>
 
 <hr>
 
@@ -61,7 +68,7 @@ alt (alternative text) attribute - describes the contents of an image.
 ```
 
 Significance:
-* Essential for SEO - alt attribute value is picked up by search engines’ spiders as it conveys the purpose of an image. 
+* Essential for ***SEO*** - alt attribute value is picked up by search engines’ spiders as it conveys the purpose of an image. 
 * The alt text is displayed in place of the image if for some reason the image is not available.
 
 ### style attribute 
