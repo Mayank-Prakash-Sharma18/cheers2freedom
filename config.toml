@@ -155,19 +155,32 @@ bio = "Academician, Blogger, and Digital Marketer"
 ############# english navigation ##############
 
 [[Languages.en.menu.main]]
-name = "HTML"
-url = "categories/html/"
+name = "Front-End"
+url = "#"
 weight = 1
+hasChildren = true
+
+   [[Languages.en.menu.main]]
+   parent = "Front-End"
+   name = "HTML"
+   url = "categories/html/"
+   weight = 3
+
+   [[Languages.en.menu.main]]
+   parent = "Front-End"
+   name = "CSS"
+   url = "categories/css/"
+   weight = 5
 
 [[Languages.en.menu.main]]
 name = "HUGO"
 url = "categories/hugo/"
-weight = 2
+weight = 8
 
 [[Languages.en.menu.main]]
 name = "SEO"
 url = "categories/seo/"
-weight = 3
+weight = 10
 
 [[Languages.en.menu.main]]
 name = "Contact"
@@ -220,19 +233,32 @@ bio = "Academician, Blogger, and Digital Marketer"
 ############# french navigation ##############
 
 [[Languages.hi.menu.main]]
-name = "HTML"
-url = "categories/html/"
+name = "Front-End"
+url = "#"
 weight = 1
+hasChildren = true
+
+   [[Languages.hi.menu.main]]
+   parent = "Front-End"
+   name = "HTML"
+   url = "categories/html/"
+   weight = 3
+
+   [[Languages.hi.menu.main]]
+   parent = "Front-End"
+   name = "CSS"
+   url = "categories/css/"
+   weight = 5
 
 [[Languages.hi.menu.main]]
 name = "HUGO"
 url = "categories/hugo/"
-weight = 2
+weight = 8
 
 [[Languages.hi.menu.main]]
 name = "SEO"
 url = "categories/seo/"
-weight = 3
+weight = 10
 
 [[Languages.hi.menu.main]]
 name = "संपर्क"

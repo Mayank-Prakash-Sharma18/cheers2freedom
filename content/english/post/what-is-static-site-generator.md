@@ -9,7 +9,7 @@ author: "Mayank Sharma"
 # description
 description: "This is a basic introduction to Static Site Generator (SSG)."
 # Taxonomies
-categories: ["website-creation","static-site-generator"]
+categories: ["website-creation","static-sites"]
 tags: ["web-development"]
 type: "popular" # available type (epic, trending, popular, or regular)
 draft: false
